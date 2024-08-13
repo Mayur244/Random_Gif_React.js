@@ -13,7 +13,7 @@ A React app that lets you view GIFs in two ways: click the "Random GIF" button f
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/random-gif-viewer.git
+   git clone https://github.com/Mayur244/Random_Gif_React.js
    cd random-gif-viewer
 
 2. **Install Dependencies**
