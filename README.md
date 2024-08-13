@@ -1,33 +1,35 @@
-# Random GIF React Project
+# Random GIF Viewer
 
-This React project displays GIFs in two main ways:
-- **Random GIF**: Click the "Random GIF" button to view a randomly generated GIF.
-- **Search GIF**: Use the input box to type a keyword and search for specific GIFs.
+A React app that lets you view GIFs in two ways: click the "Random GIF" button for a random GIF or type a keyword to search for specific GIFs. Uses custom hooks for efficient API data fetching.
 
 ## Features
 
-- Display a random GIF when the "Random GIF" button is clicked.
-- Search for GIFs using an input box.
-- Custom hooks for fetching GIF data from the API.
+- Random GIF generation
+- Keyword search for GIFs
+- Custom hooks for API management
 
-## Getting Started
+## Setup
 
-To get started with this project, follow these steps:
+1. **Clone the Repository**
 
-## 1. Clone the repository
-```bash
-git clone https://github.com/your-username/random-gif-react.git
+   ```bash
+   git clone https://github.com/yourusername/random-gif-viewer.git
+   cd random-gif-viewer
 
-## 2. Navigate to the project directory
-```bash
-cd random-gif-react
+2. **Install Dependencies**
 
-## 3. Install dependencies
-```bash
-npm install
+   ```bash
+   npm install
+   
+3. **Add API Key**
+   ```bash
+   REACT_APP_GIPHY_API_KEY=your_giphy_api_key
 
-## 4. Start the development server
-```bash
-npm start
+5. **Run the App**
+   ```bash
+   npm start
 
-The application will be running on http://localhost:3000.
+Visit http://localhost:3000 in your browser.
+   
+
+
